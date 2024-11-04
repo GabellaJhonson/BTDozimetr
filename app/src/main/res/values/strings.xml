@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Дозиметр ОСА</string>
+    <string name="title_item_name">Найденные устройства:</string>
+    <string name="discovering">Поиск…</string>
+
+    <string name="first_value">0,00 мкР/ч</string>
+    <string name="example_first_bound">50,00 мкР/ч</string>
+    <string name="example_second_bound">1000,00 мкР/ч</string>
+    <string name="Demo">Demo</string>
+</resources>
