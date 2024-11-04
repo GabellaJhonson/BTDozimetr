@@ -1,15 +1,52 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+
+# Logs
+*.log
+
+# OS-generated files
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.suo
+*.user
+*.swp
+*.sln
+
+# Java and general file types
+*.class
+*.jar
+*.war
+*.ear
+*.out
+
+# Application-specific
+app/build/
+
+# Ignore sensitive files
+*.key
+*.pem
+*.p12
+*.crt
+
+# Miscellaneous
+*.tmp
+*.temp
+*.bak
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignore dependency directory
+node_modules/
